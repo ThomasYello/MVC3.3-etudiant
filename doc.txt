@@ -1,0 +1,24 @@
+Vue
+    Appel au modèle et au contrôleur
+    Affichage des données sur les employés
+
+
+Contrôleur (classe Employes avec héritage de la classe DB )
+    Conception de la requête ici SELECT
+
+Modèle (classe DB )
+    Connexion à la base de données
+    Exécution de la requête
+
+
+    _________                   _____________
+    |       |                   |           |
+    | VUE   |   ---------- >    |  Modèle   |
+    |       |                   |           |
+    ---------                   -------------
+        |
+        |                       _____________
+        ----------------->      |           |
+                                | Contrôle  |
+                                |           |
+                                -------------
